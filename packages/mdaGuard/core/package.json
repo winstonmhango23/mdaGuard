@@ -1,0 +1,22 @@
+{
+    "name": "@mdaGuard/core",
+    "version": "1.0.0",
+    "description": "Core authentication module for mdaGuard",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest"
+    },
+    "dependencies": {
+      "bcrypt": "^5.0.1"
+    },
+    "devDependencies": {
+      "@types/bcrypt": "^5.0.0",
+      "@types/jest": "^27.0.3",
+      "jest": "^27.4.5",
+      "typescript": "^4.5.4"
+    }
+  }
+  
+  

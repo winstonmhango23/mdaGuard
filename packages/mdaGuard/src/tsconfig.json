@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "outDir": "./dist",
+      "rootDir": "."
+    },
+    "include": ["./**/*"],
+    "references": [
+      { "path": "../core" },
+      { "path": "../session" },
+      { "path": "../token" },
+      { "path": "../authorization" }
+    ]
+  }
+  
+  

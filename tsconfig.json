@@ -1,6 +1,43 @@
+// tsconfig.json
+// {
+//   "extends": "./tsconfig.base.json",
+//   "compileOnSave": false,
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./packages"
+//     },
+//     {
+//       "path": "./packages/mdaGuard"
+//     },
+//     {
+//       "path": "./packages/mdaGuard"
+//     },
+//     {
+//       "path": "./packages/mdaGuard"
+//     },
+//     {
+//       "path": "./packages/mdaGuard"
+//     }
+//   ]
+// }
+
+
 {
   "extends": "./tsconfig.base.json",
-  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mdaGuard/*": ["packages/*/src"]
+    }
+  },
   "files": [],
-  "references": []
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/session" },
+    { "path": "./packages/token" },
+    { "path": "./packages/authorization" },
+    { "path": "./src" }
+  ]
 }
+

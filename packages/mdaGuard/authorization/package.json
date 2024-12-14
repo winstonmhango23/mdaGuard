@@ -1,0 +1,18 @@
+{
+    "name": "@mdaGuard/authorization",
+    "version": "1.0.0",
+    "description": "Authorization module for mdaGuard",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest"
+    },
+    "devDependencies": {
+      "@types/jest": "^27.0.3",
+      "jest": "^27.4.5",
+      "typescript": "^4.5.4"
+    }
+  }
+  
+  
