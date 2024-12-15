@@ -1,5 +1,5 @@
 {
-    "name": "@mdaGuard/core",
+    "name": "@mdaGuard/src",
     "version": "1.0.0",
     "description": "Core package for mdaGuard - Comprehensive authentication and authorization system",
     "main": "dist/index.js",
@@ -49,4 +49,9 @@
     "homepage": "https://github.com/winstonmhango23/mdaGuard#readme"
   }
   
+  
+
+
+
+
   
